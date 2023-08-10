@@ -52,7 +52,8 @@ int a = 0, c = -1, slider = 0; // testovaci promenne
 void setup()
 {
     // Initialize WiFi
-    WiFi::startAp("LEDLED", "ledkyledky"); // toto je pro vytvoreni vlastni wi-fi, heslo minimalne 8 znaku
+    // WiFi::startAp("LEDLED", "ledkyledky"); // toto je pro vytvoreni vlastni wi-fi, heslo minimalne 8 znaku
+    WiFi::connect("Technika","materidouska");
     // na tu wi-fi se v mobilu musim prihlasit a potom zapnout RBControl, vyplnit majitele -> Kralova
     // a pak po najeti stranky Ovladani na ni poklepat -> objevi se ovladani, ktere chci
 
